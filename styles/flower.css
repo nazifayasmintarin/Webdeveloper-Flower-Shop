@@ -1,0 +1,50 @@
+body {
+    font-family:'Lato', sans-serif;
+    font-family:'Open Sans', sans-serif;
+}
+
+.banner{
+    background: rgba(229, 84, 115, 0.10);
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.b-content{
+    width: 1000px;
+    height: 600px;
+}
+
+.banner-title{
+    color: #272727;
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 5px;
+}
+
+.para{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400px;
+    line-height: 30px; 
+}
+
+.btn-primary{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    display: inline-flex;
+    padding: 20px 43px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 8px;
+    background: #E55473;
+    border: 0;
+    text-align: center;
+}
+
+.Profile-photo{
+    width: 635px;
+    height: 800px;
+    flex-shrink: 0;
+}
