@@ -9,10 +9,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 30px;
 }
 .b-content{
     width: 1000px;
-    height: 600px;
+    height: 800px;
 }
 
 .banner-title{
@@ -47,4 +48,141 @@ body {
     width: 635px;
     height: 800px;
     flex-shrink: 0;
+}
+
+/* main section style */
+
+main{
+    max-width:1140;
+    margin: auto;
+}
+.flower{
+    background: #FFF;;
+    padding: 130px;
+    margin: 120px auto;
+    border-radius: 10px;
+    width: 1920px;
+    height: 700px;
+    
+}
+
+
+.section-title{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.section-lorem{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 28px;
+    font-weight: 500px;
+    line-height: 30px;
+    margin-bottom: 70px;
+}
+
+.skill-container{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    
+}
+
+.skill1{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding: 80px;
+    width: 300px;
+    height: 350px;
+    flex-shrink: 0;
+ }
+
+ .pink-title{
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+ }
+
+ .skill2{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    padding: 80px;
+    width: 300px;
+    height: 350px;
+    flex-shrink: 0;
+ }
+
+ .lal-title{
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+    margin: 65px;
+    
+    
+ }
+ 
+ .skill3{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    padding: 80px;
+    width: 300px;
+    height: 350px;
+    flex-shrink: 0;
+ }
+ .holud-title{
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px; 
+    text-decoration-line: underline;
+    margin-top:0px;
+ }
+ 
+.group{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+.group-up{
+    border-radius: 8px;
+    background:rgba(39, 39, 39, 0.05);
+    padding: 130px;
+    margin: 120px auto;
+    border-radius: 10px;
+    width: 1440px;
+    height: 190px;
+}
+.box{
+    width: 88px;
+    height: 88px;
+    flex-shrink: 0;
+    align-items: center;
+    padding-left: 180px;
+   
+}
+
+.box-title{
+color: rgba(39, 39, 39, 0.80);
+text-align: center;
+font-size: 24px;
+font-weight: 600;
+line-height: 35px;
+padding-right: 140px;
+}
+
+.box1{
+    width: 88px;
+    height: 88px;
+    flex-shrink: 0;
+    align-items: center;
+    padding-left: 80px;
 }
